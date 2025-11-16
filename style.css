@@ -23,6 +23,18 @@ nav a {
   text-decoration: none;
 }
 
+nav a.resume-link {
+  background: #4CAF50;
+  padding: 8px 15px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a.resume-link:hover {
+  background: #45a049;
+}
+
 section {
   padding: 20px;
   background: white;
