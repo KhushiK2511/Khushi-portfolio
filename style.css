@@ -132,3 +132,42 @@ body {
     margin-top: 20px;
   }
 }
+/* Buttons at Bottom */
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Back Button */
+.back-btn {
+  background: #ff7043;
+  color: #fff;
+}
+
+.back-btn:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}
+
+/* Download Button */
+.download-btn {
+  background: #0077cc;
+  color: #fff;
+}
+
+.download-btn:hover {
+  background: #ffd700;
+  color: #333;
+  transform: scale(1.05);
+}
